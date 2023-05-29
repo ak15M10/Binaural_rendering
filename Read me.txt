@@ -1,0 +1,17 @@
+Source locations:
+
+1. Car sound        : ( 180,0) : Behind
+6. Door close/open  : (-45,0)  : Infront @45 deg to left
+2. Helicopter       : (0,90)   : TOp
+
+
+
+%-----------------------------%
+
+% note : in hrir dataset:
+azimuthal : (0 to 360); 0--> front, 90deg: left, 270 deg: right
+elevation : (-30 to 80 deg)
+
+% RMS error(distance between desired point and nearest point in dataset) is used to pic the nearest point available in dataset to find the hrir.
+
+
